@@ -1,5 +1,5 @@
-resource "azurerm_storage_share_directory" "storage_share_directorys" {
-  for_each = var.storage_share_directorys
+resource "azurerm_storage_share_directory" "storage_share_directories" {
+  for_each = var.storage_share_directories
 
   name              = each.value.name
   metadata          = each.value.metadata

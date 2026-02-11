@@ -1,6 +1,6 @@
-variable "storage_share_directorys" {
+variable "storage_share_directories" {
   description = <<EOT
-Map of storage_share_directorys, attributes below
+Map of storage_share_directories, attributes below
 Required:
     - name
 Optional:
